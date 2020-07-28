@@ -23,7 +23,7 @@ npm config set registry https://registry.npm.taobao.org
 ```bash
 cnpm install [name]
 ```
-更多信息可以查阅：http://npm.taobao.org/。
+更多信息可以查阅：http://npm.taobao.org/
 
 ### 1.1.2 使用 create-react-app 快速构建 React 开发环境
 create-react-app 是来自于 Facebook，通过该命令我们无需配置就能快速构建 React 开发环境。
