@@ -1,8 +1,6 @@
 # learn_react
 学习react的使用
 
-[TOC]
-
 # 01 React 安装
 ## 1.1 通过 npm 使用 React
 
