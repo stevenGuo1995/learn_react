@@ -21,3 +21,15 @@ npm config set registry https://registry.npm.taobao.org
 npx --ignore-existing create-react-app . --template typescript
 ```
 
+### git 报错
+git commit时报错
+
+```bash
+× npm run lint-staged:js:
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+```
+安装这个东东就可以了
+```bash
+npm install --save-dev pre-commit
+```
