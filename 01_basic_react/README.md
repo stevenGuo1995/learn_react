@@ -105,10 +105,10 @@ props 不可被修改
 
 ## 2.6 生命周期函数
 函数列表:
-* componentWillMount: 在组件渲染之前执行 
+* componentWillMount: 在组件渲染之前执行 （已准备取消，官方推荐使用DidMount）
 * componentDidMount: 在组件渲染之后执行
 * shouldComponentUpdate: 返回true/false, true代表允许改变，false代表不允许改变
 * componentWillUpdate: 在数据改变之前执行
 * componentDidUpdate: 数据修改完成
-* componentWillReceiveProps: props发生改变（爸爸改了它）
+* componentWillReceiveProps: props发生改变（爸爸改了它）(已准备取消，可以使用willUpdate）
 * componentWillUnmount: 组件卸载前执行

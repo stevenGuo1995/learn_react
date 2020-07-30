@@ -16,6 +16,17 @@ export default class Lifecycle extends Component<Props, State> {
         console.log("Did mount");
     }
 
+    componentWillUpdate() {
+        console.log("will update");
+    }
+
+    componentDidUpdate(prevProps: Readonly<Props>, prevState: Readonly<State>, snapshot?: any) {
+        console.log("Did update");
+    }
+
+    componentWillUnmount() {
+        console.log("will unmount");
+    }
 
     render() {
         return (
